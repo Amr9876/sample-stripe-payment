@@ -1,0 +1,20 @@
+body {
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 15rem;
+    height: 6rem;
+    background: #a2ffa2;
+    border-radius: 3rem;
+    border-width: .3rem;
+    border-color: #333;
+    font-family: cursive;
+    font-size: 3rem;
+    color: #333;
+    cursor: pointer;
+}
