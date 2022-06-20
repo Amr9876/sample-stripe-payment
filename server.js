@@ -11,7 +11,7 @@ const stripe = require('stripe')(process.env.STRIPE_PRIVATE_KEY);
 let baseUrl;
 
 if (process.env.NODE_ENV === 'production') {
-	baseUrl = '';
+	baseUrl = 'https://sample-stripe-app-5986.herokuapp.com/';
 } else {
 	baseUrl = 'http://localhost:3000';
 }
